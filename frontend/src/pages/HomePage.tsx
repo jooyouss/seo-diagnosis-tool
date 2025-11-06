@@ -137,6 +137,7 @@ const HomePage = () => {
       <header className="homepage-header">
         <img src={logo} alt="Logo" className="homepage-logo" />
         <h1>SEO 诊断工具</h1>
+        <p className="homepage-desc">测试看一下</p>
         <p className="homepage-desc">一键检测网站SEO健康状况，获取专业优化建议，助力内容创作者和运营者提升网站表现。</p>
       </header>
       <main className="homepage-main">
