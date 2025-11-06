@@ -1,0 +1,123 @@
+.homepage-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0e7ff 0%, #f0f4ff 100%);
+}
+.homepage-header {
+  text-align: center;
+  padding: 64px 0 32px 0;
+}
+.homepage-logo {
+  width: 64px;
+  margin-bottom: 16px;
+}
+.homepage-header h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 12px;
+}
+.homepage-desc {
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+.homepage-main {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  padding: 32px 32px 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.homepage-input-block {
+  margin-bottom: 0;
+}
+.example-list {
+  margin-bottom: 4px;
+}
+.homepage-progress-block {
+  margin-bottom: 0;
+}
+.progress-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.progress-percent {
+  font-weight: 700;
+  font-size: 18px;
+  color: #1677ff;
+  letter-spacing: 1px;
+  min-width: 40px;
+  text-align: right;
+}
+.steps-list {
+  margin-left: 8px;
+}
+.homepage-history-block {
+  margin-bottom: 0;
+}
+.history-title {
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.history-list li {
+  padding: 4px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.98rem;
+  color: #1677ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.history-url {
+  flex: 1;
+  color: #1677ff;
+  word-break: break-all;
+}
+.history-delete {
+  color: #888;
+  font-size: 12px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.homepage-alert-block {
+  margin-top: 8px;
+}
+.alert-loading {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.homepage-footer {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.95rem;
+  margin-top: 48px;
+  padding-bottom: 16px;
+}
+@media (max-width: 600px) {
+  .homepage-main {
+    max-width: 100vw;
+    padding: 12px 4vw 16px 4vw;
+    border-radius: 0;
+  }
+  .steps-list {
+    margin-left: 0;
+  }
+  .homepage-header {
+    padding: 36px 0 18px 0;
+  }
+} 
