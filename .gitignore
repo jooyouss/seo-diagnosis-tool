@@ -1,6 +1,6 @@
 # Dependencies
 node_modules/
-package-lock.json
+# package-lock.json  # 注释掉，CI/CD 需要此文件
 
 # Build outputs
 dist/
